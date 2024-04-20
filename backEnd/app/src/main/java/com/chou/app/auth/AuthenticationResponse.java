@@ -1,0 +1,16 @@
+package com.chou.app.auth;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@Builder
+public class AuthenticationResponse {
+    private String token;
+    private String firstname;
+    private String lastname;
+    private String error;
+
+}
