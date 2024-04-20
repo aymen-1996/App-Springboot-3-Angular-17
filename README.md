@@ -28,7 +28,7 @@
 - Spring Security 6
 - JWT Token Authentication
 - Spring Data JPA
--scheduler
+- scheduler
 - OpenAPI and Swagger UI Documentation
 - GitHub Actions
 
