@@ -20,7 +20,7 @@
 #### Page List
 ![Page List](screenshots/list.png)
 
-#### Acctivation Email
+#### Acctivation Email (thymeleaf)
 ![Acctivation Email](screenshots/activation.png)
 
 ## Technologies Used
@@ -32,6 +32,7 @@
 - JWT Token Authentication
 - Spring Data JPA
 - scheduler
+- thymeleaf
 - OpenAPI and Swagger UI Documentation
 - GitHub Actions
 
