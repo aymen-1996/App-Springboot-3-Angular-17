@@ -20,6 +20,9 @@
 #### Page List
 ![Page List](screenshots/list.png)
 
+#### Acctivation Email
+![Acctivation Email](screenshots/activation.png)
+
 ## Technologies Used
 
 ### Backend (backEnd)
