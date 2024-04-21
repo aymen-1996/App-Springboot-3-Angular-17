@@ -2,7 +2,9 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
-<button (click)="logout()" class="logout-btn">Logout</button>
+
+<a (click)="logout()" class='btn signup'>Logout</a>
+
 
 <div class="table-container">
     <h2>List Users</h2>
@@ -19,7 +21,7 @@
             </thead>
             <tbody cdkDropList (cdkDropListDropped)="drop($event)">
                 <tr *ngFor="let user of users" cdkDrag>
-                    <td contenteditable="true">{{ user.email }}</td>
+                    <td >{{ user.email }}</td>
                     <td>{{ user.firstname }}</td>
                     <td>{{ user.lastname }}</td>
                     <td (click)="deleteUser(user.id)"><i class="material-icons delete-icon">delete</i></td>
