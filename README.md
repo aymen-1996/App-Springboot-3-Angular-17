@@ -45,7 +45,6 @@
 - Authentication Guard
 - OpenAPI Generator for Angular
 
-
 ## Contributors
 
 - [Chouaibi Mohamed Aymen](https://github.com/aymen-1996)
